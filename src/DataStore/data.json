@@ -1,0 +1,976 @@
+{
+  "customers": {
+    "headers": [
+      {
+        "field": "customer_id",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "customer_name",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "contact_title",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "address",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "phone",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "email",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "country",
+        "type": "string",
+        "fieldSize": 40
+      }
+    ],
+    "data": [
+      {
+        "customer_id": "C001",
+        "customer_name": "John Smith",
+        "contact_title": "CEO",
+        "address": "123 Maple St, Springfield, IL 62701, USA",
+        "phone": "+1-555-123-4567",
+        "email": "john.smith@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C002",
+        "customer_name": "Jane Doe",
+        "contact_title": "CFO",
+        "address": "456 Oak St, Metropolis, IL 62960, USA",
+        "phone": "+1-555-987-6543",
+        "email": "jane.doe@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C003",
+        "customer_name": "Robert Johnson",
+        "contact_title": "CTO",
+        "address": "789 Pine St, Smallville, KS 67524, USA",
+        "phone": "+1-555-654-3210",
+        "email": "robert.johnson@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C004",
+        "customer_name": "Emily Davis",
+        "contact_title": "COO",
+        "address": "101 Birch St, Star City, IN 47987, USA",
+        "phone": "+1-555-210-9876",
+        "email": "emily.davis@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C005",
+        "customer_name": "Michael Brown",
+        "contact_title": "Manager",
+        "address": "202 Cedar St, Gotham, NY 10001, USA",
+        "phone": "+1-555-432-1098",
+        "email": "michael.brown@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C006",
+        "customer_name": "Sarah Wilson",
+        "contact_title": "Director",
+        "address": "303 Elm St, Springfield, IL 62701, USA",
+        "phone": "+1-555-345-6789",
+        "email": "sarah.wilson@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C007",
+        "customer_name": "Thomas Anderson",
+        "contact_title": "Supervisor",
+        "address": "404 Oak St, Metropolis, IL 62960, USA",
+        "phone": "+1-555-567-8901",
+        "email": "thomas.anderson@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C008",
+        "customer_name": "Nancy Clark",
+        "contact_title": "Lead",
+        "address": "505 Pine St, Smallville, KS 67524, USA",
+        "phone": "+1-555-678-9012",
+        "email": "nancy.clark@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C009",
+        "customer_name": "George King",
+        "contact_title": "Analyst",
+        "address": "606 Birch St, Star City, IN 47987, USA",
+        "phone": "+1-555-789-0123",
+        "email": "george.king@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C010",
+        "customer_name": "Mary Harris",
+        "contact_title": "Consultant",
+        "address": "707 Cedar St, Gotham, NY 10001, USA",
+        "phone": "+1-555-890-1234",
+        "email": "mary.harris@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C011",
+        "customer_name": "James Martinez",
+        "contact_title": "Specialist",
+        "address": "808 Elm St, Springfield, IL 62701, USA",
+        "phone": "+1-555-901-2345",
+        "email": "james.martinez@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C012",
+        "customer_name": "Patricia Lewis",
+        "contact_title": "Coordinator",
+        "address": "909 Oak St, Metropolis, IL 62960, USA",
+        "phone": "+1-555-012-3456",
+        "email": "patricia.lewis@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C013",
+        "customer_name": "Daniel Walker",
+        "contact_title": "Assistant",
+        "address": "1010 Pine St, Smallville, KS 67524, USA",
+        "phone": "+1-555-123-4568",
+        "email": "daniel.walker@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C014",
+        "customer_name": "Barbara Scott",
+        "contact_title": "Advisor",
+        "address": "1111 Birch St, Star City, IN 47987, USA",
+        "phone": "+1-555-234-5679",
+        "email": "barbara.scott@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C015",
+        "customer_name": "Christopher Robinson",
+        "contact_title": "Executive",
+        "address": "1212 Cedar St, Gotham, NY 10001, USA",
+        "phone": "+1-555-345-6780",
+        "email": "christopher.robinson@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C016",
+        "customer_name": "Karen Lee",
+        "contact_title": "Officer",
+        "address": "1313 Elm St, Springfield, IL 62701, USA",
+        "phone": "+1-555-456-7891",
+        "email": "karen.lee@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C017",
+        "customer_name": "Kevin Taylor",
+        "contact_title": "Director",
+        "address": "1414 Oak St, Metropolis, IL 62960, USA",
+        "phone": "+1-555-567-8902",
+        "email": "kevin.taylor@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C018",
+        "customer_name": "Susan Moore",
+        "contact_title": "Manager",
+        "address": "1515 Pine St, Smallville, KS 67524, USA",
+        "phone": "+1-555-678-9013",
+        "email": "susan.moore@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C019",
+        "customer_name": "David White",
+        "contact_title": "Supervisor",
+        "address": "1616 Birch St, Star City, IN 47987, USA",
+        "phone": "+1-555-789-0124",
+        "email": "david.white@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C020",
+        "customer_name": "Nancy Thomas",
+        "contact_title": "Lead",
+        "address": "1717 Cedar St, Gotham, NY 10001, USA",
+        "phone": "+1-555-890-1235",
+        "email": "nancy.thomas@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C021",
+        "customer_name": "John Lee",
+        "contact_title": "Analyst",
+        "address": "1818 Elm St, Springfield, IL 62701, USA",
+        "phone": "+1-555-901-2346",
+        "email": "john.lee@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C022",
+        "customer_name": "Sarah Young",
+        "contact_title": "Consultant",
+        "address": "1919 Oak St, Metropolis, IL 62960, USA",
+        "phone": "+1-555-012-3457",
+        "email": "sarah.young@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C023",
+        "customer_name": "Michael Allen",
+        "contact_title": "Specialist",
+        "address": "2020 Pine St, Smallville, KS 67524, USA",
+        "phone": "+1-555-123-4569",
+        "email": "michael.allen@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C024",
+        "customer_name": "Karen Adams",
+        "contact_title": "Coordinator",
+        "address": "2121 Birch St, Star City, IN 47987, USA",
+        "phone": "+1-555-234-5670",
+        "email": "karen.adams@example.com",
+        "country": "USA"
+      },
+      {
+        "customer_id": "C025",
+        "customer_name": "David Nelson",
+        "contact_title": "Advisor",
+        "address": "2222 Cedar St, Gotham, NY 10001, USA",
+        "phone": "+1-555-345-6781",
+        "email": "david.nelson@example.com",
+        "country": "USA"
+      }
+    ]
+  },
+  "products": {
+    "headers": [
+      {
+        "field": "product_id",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "product_name",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "category",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "price",
+        "type": "float",
+        "fieldSize": 40
+      },
+      {
+        "field": "quantity",
+        "type": "int",
+        "fieldSize": 40
+      },
+      {
+        "field": "supplier_id",
+        "type": "string",
+        "fieldSize": 40
+      }
+    ],
+    "data": [
+      {
+        "product_id": "P001",
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "price": 999.99,
+        "quantity": 100,
+        "supplier_id": "S001"
+      },
+      {
+        "product_id": "P002",
+        "product_name": "Smartphone",
+        "category": "Electronics",
+        "price": 699.99,
+        "quantity": 200,
+        "supplier_id": "S002"
+      },
+      {
+        "product_id": "P003",
+        "product_name": "Desk Chair",
+        "category": "Furniture",
+        "price": 129.99,
+        "quantity": 150,
+        "supplier_id": "S003"
+      },
+      {
+        "product_id": "P004",
+        "product_name": "LED Monitor",
+        "category": "Electronics",
+        "price": 199.99,
+        "quantity": 75,
+        "supplier_id": "S004"
+      },
+      {
+        "product_id": "P005",
+        "product_name": "Keyboard",
+        "category": "Electronics",
+        "price": 49.99,
+        "quantity": 300,
+        "supplier_id": "S005"
+      },
+      {
+        "product_id": "P006",
+        "product_name": "Mouse",
+        "category": "Electronics",
+        "price": 29.99,
+        "quantity": 400,
+        "supplier_id": "S006"
+      },
+      {
+        "product_id": "P007",
+        "product_name": "Office Desk",
+        "category": "Furniture",
+        "price": 249.99,
+        "quantity": 60,
+        "supplier_id": "S007"
+      },
+      {
+        "product_id": "P008",
+        "product_name": "Printer",
+        "category": "Electronics",
+        "price": 159.99,
+        "quantity": 85,
+        "supplier_id": "S008"
+      },
+      {
+        "product_id": "P009",
+        "product_name": "Notebook",
+        "category": "Stationery",
+        "price": 4.99,
+        "quantity": 1000,
+        "supplier_id": "S009"
+      },
+      {
+        "product_id": "P010",
+        "product_name": "Pen",
+        "category": "Stationery",
+        "price": 1.99,
+        "quantity": 2000,
+        "supplier_id": "S010"
+      },
+      {
+        "product_id": "P011",
+        "product_name": "Tablet",
+        "category": "Electronics",
+        "price": 499.99,
+        "quantity": 120,
+        "supplier_id": "S011"
+      },
+      {
+        "product_id": "P012",
+        "product_name": "Scanner",
+        "category": "Electronics",
+        "price": 89.99,
+        "quantity": 90,
+        "supplier_id": "S012"
+      },
+      {
+        "product_id": "P013",
+        "product_name": "Desk Lamp",
+        "category": "Furniture",
+        "price": 39.99,
+        "quantity": 200,
+        "supplier_id": "S013"
+      },
+      {
+        "product_id": "P014",
+        "product_name": "USB Drive",
+        "category": "Electronics",
+        "price": 19.99,
+        "quantity": 500,
+        "supplier_id": "S014"
+      },
+      {
+        "product_id": "P015",
+        "product_name": "External Hard Drive",
+        "category": "Electronics",
+        "price": 99.99,
+        "quantity": 100,
+        "supplier_id": "S015"
+      },
+      {
+        "product_id": "P016",
+        "product_name": "Whiteboard",
+        "category": "Office Supplies",
+        "price": 89.99,
+        "quantity": 60,
+        "supplier_id": "S016"
+      },
+      {
+        "product_id": "P017",
+        "product_name": "Projector",
+        "category": "Electronics",
+        "price": 299.99,
+        "quantity": 45,
+        "supplier_id": "S017"
+      },
+      {
+        "product_id": "P018",
+        "product_name": "Filing Cabinet",
+        "category": "Furniture",
+        "price": 149.99,
+        "quantity": 80,
+        "supplier_id": "S018"
+      },
+      {
+        "product_id": "P019",
+        "product_name": "Paper Shredder",
+        "category": "Office Supplies",
+        "price": 59.99,
+        "quantity": 95,
+        "supplier_id": "S019"
+      },
+      {
+        "product_id": "P020",
+        "product_name": "Wireless Router",
+        "category": "Electronics",
+        "price": 79.99,
+        "quantity": 150,
+        "supplier_id": "S020"
+      },
+      {
+        "product_id": "P021",
+        "product_name": "Headphones",
+        "category": "Electronics",
+        "price": 59.99,
+        "quantity": 220,
+        "supplier_id": "S021"
+      },
+      {
+        "product_id": "P022",
+        "product_name": "Webcam",
+        "category": "Electronics",
+        "price": 39.99,
+        "quantity": 180,
+        "supplier_id": "S022"
+      },
+      {
+        "product_id": "P023",
+        "product_name": "Calculator",
+        "category": "Office Supplies",
+        "price": 19.99,
+        "quantity": 300,
+        "supplier_id": "S023"
+      },
+      {
+        "product_id": "P024",
+        "product_name": "Sticky Notes",
+        "category": "Office Supplies",
+        "price": 3.99,
+        "quantity": 1000,
+        "supplier_id": "S024"
+      },
+      {
+        "product_id": "P025",
+        "product_name": "Water Bottle",
+        "category": "Kitchen Supplies",
+        "price": 14.99,
+        "quantity": 400,
+        "supplier_id": "S025"
+      }
+    ]
+  },
+  "suppliers": {
+    "headers": [
+      {
+        "field": "supplierID",
+        "type": "int",
+        "fieldSize": 40
+      },
+      {
+        "field": "companyName",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "contactName",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "contactTitle",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "address",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "city",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "region",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "postalCode",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "country",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "phone",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "fax",
+        "type": "string",
+        "fieldSize": 40
+      },
+      {
+        "field": "homePage",
+        "type": "string",
+        "fieldSize": 40
+      }
+    ],
+    "data": [
+      {
+        "supplierID": 1,
+        "companyName": "Exotic Liquids",
+        "contactName": "Charlotte Cooper",
+        "contactTitle": "Purchasing Manager",
+        "address": "49 Gilbert St.",
+        "city": "London",
+        "region": "NULL",
+        "postalCode": "EC1 4SD",
+        "country": "UK",
+        "phone": "(171) 555-2222",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 2,
+        "companyName": "New Orleans Cajun Delights",
+        "contactName": "Shelley Burke",
+        "contactTitle": "Order Administrator",
+        "address": "P.O. Box 78934",
+        "city": "New Orleans",
+        "region": "LA",
+        "postalCode": 70117,
+        "country": "USA",
+        "phone": "(100) 555-4822",
+        "fax": "NULL",
+        "homePage": "#CAJUN.HTM#"
+      },
+      {
+        "supplierID": 3,
+        "companyName": "Grandma Kelly's Homestead",
+        "contactName": "Regina Murphy",
+        "contactTitle": "Sales Representative",
+        "address": "707 Oxford Rd.",
+        "city": "Ann Arbor",
+        "region": "MI",
+        "postalCode": 48104,
+        "country": "USA",
+        "phone": "(313) 555-5735",
+        "fax": "(313) 555-3349",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 4,
+        "companyName": "Tokyo Traders",
+        "contactName": "Yoshi Nagase",
+        "contactTitle": "Marketing Manager",
+        "address": "9-8 Sekimai Musashino-shi",
+        "city": "Tokyo",
+        "region": "NULL",
+        "postalCode": 100,
+        "country": "Japan",
+        "phone": "(03) 3555-5011",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 5,
+        "companyName": "Cooperativa de Quesos 'Las Cabras'",
+        "contactName": "Antonio del Valle Saavedra",
+        "contactTitle": "Export Administrator",
+        "address": "Calle del Rosal 4",
+        "city": "Oviedo",
+        "region": "Asturias",
+        "postalCode": 33007,
+        "country": "Spain",
+        "phone": "(98) 598 76 54",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 6,
+        "companyName": "Mayumi's",
+        "contactName": "Mayumi Ohno",
+        "contactTitle": "Marketing Representative",
+        "address": "92 Setsuko Chuo-ku",
+        "city": "Osaka",
+        "region": "NULL",
+        "postalCode": 545,
+        "country": "Japan",
+        "phone": "(06) 431-7877",
+        "fax": "NULL",
+        "homePage": "Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#"
+      },
+      {
+        "supplierID": 7,
+        "companyName": "Pavlova Ltd.",
+        "contactName": "Ian Devling",
+        "contactTitle": "Marketing Manager",
+        "address": "74 Rose St. Moonie Ponds",
+        "city": "Melbourne",
+        "region": "Victoria",
+        "postalCode": 3058,
+        "country": "Australia",
+        "phone": "(03) 444-2343",
+        "fax": "(03) 444-6588",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 8,
+        "companyName": "Specialty Biscuits Ltd.",
+        "contactName": "Peter Wilson",
+        "contactTitle": "Sales Representative",
+        "address": "29 King's Way",
+        "city": "Manchester",
+        "region": "NULL",
+        "postalCode": "M14 GSD",
+        "country": "UK",
+        "phone": "(161) 555-4448",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 9,
+        "companyName": "PB Knäckebröd AB",
+        "contactName": "Lars Peterson",
+        "contactTitle": "Sales Agent",
+        "address": "Kaloadagatan 13",
+        "city": "Göteborg",
+        "region": "NULL",
+        "postalCode": "S-345 67",
+        "country": "Sweden",
+        "phone": "031-987 65 43",
+        "fax": "031-987 65 91",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 10,
+        "companyName": "Refrescos Americanas LTDA",
+        "contactName": "Carlos Diaz",
+        "contactTitle": "Marketing Manager",
+        "address": "Av. das Americanas 12.890",
+        "city": "Sao Paulo",
+        "region": "NULL",
+        "postalCode": 5442,
+        "country": "Brazil",
+        "phone": "(11) 555 4640",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 11,
+        "companyName": "Heli Süßwaren GmbH & Co. KG",
+        "contactName": "Petra Winkler",
+        "contactTitle": "Sales Manager",
+        "address": "Tiergartenstraße 5",
+        "city": "Berlin",
+        "region": "NULL",
+        "postalCode": 10785,
+        "country": "Germany",
+        "phone": "(010) 9984510",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 12,
+        "companyName": "Plutzer Lebensmittelgroßmärkte AG",
+        "contactName": "Martin Bein",
+        "contactTitle": "International Marketing Mgr.",
+        "address": "Bogenallee 51",
+        "city": "Frankfurt",
+        "region": "NULL",
+        "postalCode": 60439,
+        "country": "Germany",
+        "phone": "(069) 992755",
+        "fax": "NULL",
+        "homePage": "Plutzer (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/plutzer.htm#"
+      },
+      {
+        "supplierID": 13,
+        "companyName": "Nord-Ost-Fisch Handelsgesellschaft mbH",
+        "contactName": "Sven Petersen",
+        "contactTitle": "Coordinator Foreign Markets",
+        "address": "Frahmredder 112a",
+        "city": "Cuxhaven",
+        "region": "NULL",
+        "postalCode": 27478,
+        "country": "Germany",
+        "phone": "(04721) 8713",
+        "fax": "(04721) 8714",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 14,
+        "companyName": "Formaggi Fortini s.r.l.",
+        "contactName": "Elio Rossi",
+        "contactTitle": "Sales Representative",
+        "address": "Viale Dante 75",
+        "city": "Ravenna",
+        "region": "NULL",
+        "postalCode": 48100,
+        "country": "Italy",
+        "phone": "(0544) 60323",
+        "fax": "(0544) 60603",
+        "homePage": "#FORMAGGI.HTM#"
+      },
+      {
+        "supplierID": 15,
+        "companyName": "Norske Meierier",
+        "contactName": "Beate Vileid",
+        "contactTitle": "Marketing Manager",
+        "address": "Hatlevegen 5",
+        "city": "Sandvika",
+        "region": "NULL",
+        "postalCode": 1320,
+        "country": "Norway",
+        "phone": "(0)2-953010",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 16,
+        "companyName": "Bigfoot Breweries",
+        "contactName": "Cheryl Saylor",
+        "contactTitle": "Regional Account Rep.",
+        "address": "3400 - 8th Avenue Suite 210",
+        "city": "Bend",
+        "region": "OR",
+        "postalCode": 97101,
+        "country": "USA",
+        "phone": "(503) 555-9931",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 17,
+        "companyName": "Svensk Sjöföda AB",
+        "contactName": "Michael Björn",
+        "contactTitle": "Sales Representative",
+        "address": "Brovallavägen 231",
+        "city": "Stockholm",
+        "region": "NULL",
+        "postalCode": "S-123 45",
+        "country": "Sweden",
+        "phone": "08-123 45 67",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 18,
+        "companyName": "Aux joyeux ecclésiastiques",
+        "contactName": "Guylène Nodier",
+        "contactTitle": "Sales Manager",
+        "address": "203 Rue des Francs-Bourgeois",
+        "city": "Paris",
+        "region": "NULL",
+        "postalCode": 75004,
+        "country": "France",
+        "phone": "(1) 03.83.00.68",
+        "fax": "(1) 03.83.00.62",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 19,
+        "companyName": "New England Seafood Cannery",
+        "contactName": "Robb Merchant",
+        "contactTitle": "Wholesale Account Agent",
+        "address": "Order Processing Dept. 2100 Paul Revere Blvd.",
+        "city": "Boston",
+        "region": "MA",
+        "postalCode": "02134",
+        "country": "USA",
+        "phone": "(617) 555-3267",
+        "fax": "(617) 555-3389",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 20,
+        "companyName": "Leka Trading",
+        "contactName": "Chandra Leka",
+        "contactTitle": "Owner",
+        "address": "471 Serangoon Loop Suite #402",
+        "city": "Singapore",
+        "region": "NULL",
+        "postalCode": "0512",
+        "country": "Singapore",
+        "phone": "555-8787",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 21,
+        "companyName": "Lyngbysild",
+        "contactName": "Niels Petersen",
+        "contactTitle": "Sales Manager",
+        "address": "Lyngbysild Fiskebakken 10",
+        "city": "Lyngby",
+        "region": "NULL",
+        "postalCode": 2800,
+        "country": "Denmark",
+        "phone": 43844108,
+        "fax": 43844115,
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 22,
+        "companyName": "Zaanse Snoepfabriek",
+        "contactName": "Dirk Luchte",
+        "contactTitle": "Accounting Manager",
+        "address": "Verkoop Rijnweg 22",
+        "city": "Zaandam",
+        "region": "NULL",
+        "postalCode": "9999 ZZ",
+        "country": "Netherlands",
+        "phone": "(12345) 1212",
+        "fax": "(12345) 1210",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 23,
+        "companyName": "Karkki Oy",
+        "contactName": "Anne Heikkonen",
+        "contactTitle": "Product Manager",
+        "address": "Valtakatu 12",
+        "city": "Lappeenranta",
+        "region": "NULL",
+        "postalCode": 53120,
+        "country": "Finland",
+        "phone": "(953) 10956",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 24,
+        "companyName": "G'day Mate",
+        "contactName": "Wendy Mackenzie",
+        "contactTitle": "Sales Representative",
+        "address": "170 Prince Edward Parade Hunter's Hill",
+        "city": "Sydney",
+        "region": "NSW",
+        "postalCode": 2042,
+        "country": "Australia",
+        "phone": "(02) 555-5914",
+        "fax": "(02) 555-4873",
+        "homePage": "G'day Mate (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/gdaymate.htm#"
+      },
+      {
+        "supplierID": 25,
+        "companyName": "Ma Maison",
+        "contactName": "Jean-Guy Lauzon",
+        "contactTitle": "Marketing Manager",
+        "address": "2960 Rue St. Laurent",
+        "city": "Montréal",
+        "region": "Québec",
+        "postalCode": "H1J 1C3",
+        "country": "Canada",
+        "phone": "(514) 555-9022",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 26,
+        "companyName": "Pasta Buttini s.r.l.",
+        "contactName": "Giovanni Giudici",
+        "contactTitle": "Order Administrator",
+        "address": "Via dei Gelsomini 153",
+        "city": "Salerno",
+        "region": "NULL",
+        "postalCode": 84100,
+        "country": "Italy",
+        "phone": "(089) 6547665",
+        "fax": "(089) 6547667",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 27,
+        "companyName": "Escargots Nouveaux",
+        "contactName": "Marie Delamare",
+        "contactTitle": "Sales Manager",
+        "address": "22 rue H. Voiron",
+        "city": "Montceau",
+        "region": "NULL",
+        "postalCode": 71300,
+        "country": "France",
+        "phone": "85.57.00.07",
+        "fax": "NULL",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 28,
+        "companyName": "Gai pâturage",
+        "contactName": "Eliane Noz",
+        "contactTitle": "Sales Representative",
+        "address": "Bat. B 3 rue des Alpes",
+        "city": "Annecy",
+        "region": "NULL",
+        "postalCode": 74000,
+        "country": "France",
+        "phone": "38.76.98.06",
+        "fax": "38.76.98.58",
+        "homePage": "NULL"
+      },
+      {
+        "supplierID": 29,
+        "companyName": "Forêts d'érables",
+        "contactName": "Chantal Goulet",
+        "contactTitle": "Accounting Manager",
+        "address": "148 rue Chasseur",
+        "city": "Ste-Hyacinthe",
+        "region": "Québec",
+        "postalCode": "J2S 7S8",
+        "country": "Canada",
+        "phone": "(514) 555-2955",
+        "fax": "(514) 555-2921",
+        "homePage": "NULL"
+      }
+    ]
+  }
+}
